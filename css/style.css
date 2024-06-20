@@ -1,0 +1,125 @@
+
+.logo{
+    display: block;
+    margin: auto;
+    height:60px;
+    width:50px;
+    padding:1px 30px;
+    margin-bottom: 5px;
+    background:linear-gradient(black,rgb(44, 42, 42));
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50px;
+}
+body{
+        background-image:linear-gradient(rgb(255, 255, 255),rgb(139, 195, 255),rgb(70, 175, 255),rgb(255, 171, 255),rgb(255, 126, 177))  ;
+        height:100vh;
+        margin:0;
+        padding: 0;
+}
+.container{
+    max-width:800px;
+    border:3px solid rgb(0, 0, 0);
+    box-shadow: 0.5px 0.5px 2px 2px white;
+    margin:auto;
+    height:64vh;
+    padding:33px;
+    overflow-y:auto;
+    margin-bottom:10px;
+    background-image: linear-gradient(to bottom, rgb(255, 157, 0) 20%,white ,rgb(18, 240, 33) );
+}
+.message{
+   
+   
+   padding:10px;
+   
+   font-family: cursive;
+   margin:10px 0px;
+   border-radius: 10px;
+   border:5px solid rgb(54, 31, 187);
+}
+.left {
+    color: white;
+    float: left;
+    clear: both;
+    box-shadow: 2px 2px rgb(60, 41, 158);
+    background-image: linear-gradient(135deg, rgb(63, 214, 194), rgb(0, 115, 255));
+    max-width: 50%; /* Ensures the message does not take more than 80% of the container's width */
+    word-wrap: break-word; /* Breaks long words */
+    overflow-wrap: break-word; /* Breaks long words */
+    margin-bottom: 10px; /* Adds space between messages */
+    padding: 10px; /* Adds padding inside the box */
+    border-radius: 5px; /* Adds rounded corners */
+}
+
+.right {
+    color: white;
+    box-shadow: -2px -2px rgb(75, 57, 169);
+    float: right;
+    clear: both;
+    background-image: linear-gradient(135deg, rgb(63, 214, 194), rgb(0, 115, 255));
+    max-width: 50%; /* Ensures the message does not take more than 80% of the container's width */
+    word-wrap: break-word; /* Breaks long words */
+    overflow-wrap: break-word; /* Breaks long words */
+    margin-bottom: 10px; /* Adds space between messages */
+    padding: 10px; /* Adds padding inside the box */
+    border-radius: 5px; /* Adds rounded corners */
+}
+.center{
+    height:10px;
+    color:rgb(255, 255, 255);
+    display: flex;
+    font-size: 13px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width:400px;
+    margin: 5px 185px;
+    background-color: rgb(56, 16, 255);
+    border: none;
+    clear:both;
+}
+#send-container{
+      width:880px;
+      display:flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      text-align:center;
+      margin: 0 200px;
+      box-sizing: border-box;
+}
+i{
+    font-size: 1.3rem;
+}
+.btn{
+    height:40px;
+    width:47px;
+    margin-left:10px;
+    border-left: 5px solid black;
+    cursor:pointer;
+    background-image: linear-gradient(45deg, rgb(222, 37, 0),rgb(255, 252, 99));
+    color:white;
+    font-weight: bold;
+    font-family: cursive;
+
+}
+
+#messageInp{
+    border-right: 5px solid black;
+    font-family: cursive;
+    font-weight: bolder;
+    width:99%;
+    height:31px;
+    border: 10px black;
+    margin-right: 22px;
+    border-radius: 3px;
+}
+#messageInp1{
+    width:50px;
+    border-right: 5px solid black;
+    font-family: cursive;
+    font-weight: bolder;
+    margin-right:22px;
+    height:32px;
+    border: 2px black;
+}
